@@ -1,0 +1,74 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "work sans", "sans-serif";
+}
+.myNavbar{
+    background-color: #1e1e63;
+    height: 225px;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.grid-container{
+    display: grid;
+    height: 370px;
+    grid-template-columns: 200px 1fr;
+}
+.nav p{
+    text-align: justify;
+    padding: 5px;
+}
+.text{
+    width: 500px;
+    height: 120px;
+}
+.footer{
+    background-color: #1e1e63;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.contant{
+    margin: 10px 10px 10px 30px;
+}
+.myNavbar{
+    display: flex;
+}
+.myNavbar h1{
+    margin: 60px 2px 2px 63px;
+    font-size: 60px;
+    color: white;
+}
+.myNavbar img{
+    margin: 20px 20px 20px 60px;
+}
+
+.footer .copy{
+    margin-top: 5px;
+}
+.mylist{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;   
+
+}
+.list{
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.list :hover{
+    padding:12px;
+    background-color: blue;
+    
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
